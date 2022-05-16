@@ -1,4 +1,9 @@
 package com.noah.animais.peixes;
 
-public class Enguia {
+import com.noah.animais.Sexo;
+
+public class Enguia extends Peixe {
+  public Enguia(Sexo sexo) {
+    super(sexo);
+  }
 }

@@ -1,4 +1,10 @@
 package com.noah.animais.mamiferos;
 
-public class Leao {
+import com.noah.animais.Animal;
+import com.noah.animais.Sexo;
+
+public class Leao extends Mamifero {
+  public Leao(Sexo sexo) {
+    super(sexo);
+  }
 }

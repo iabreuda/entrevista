@@ -1,4 +1,9 @@
 package com.noah.animais.anfibios;
 
-public class Salamandra {
+import com.noah.animais.Sexo;
+
+public class Salamandra extends Anfibio {
+  public Salamandra(Sexo sexo) {
+    super(sexo);
+  }
 }

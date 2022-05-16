@@ -1,4 +1,9 @@
 package com.noah.animais.repteis;
 
-public class Tartaruga {
+import com.noah.animais.Sexo;
+
+public class Tartaruga extends Reptil {
+  public Tartaruga(Sexo sexo) {
+    super(sexo);
+  }
 }

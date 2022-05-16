@@ -1,4 +1,9 @@
 package com.noah.animais.repteis;
 
-public class Cobra {
+import com.noah.animais.Sexo;
+
+public class Cobra extends Reptil {
+  public Cobra(Sexo sexo) {
+    super(sexo);
+  }
 }

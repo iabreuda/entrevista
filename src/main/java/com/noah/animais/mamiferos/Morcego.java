@@ -1,4 +1,9 @@
 package com.noah.animais.mamiferos;
 
-public class Morcego {
+import com.noah.animais.Sexo;
+
+public class Morcego extends Mamifero {
+  public Morcego(Sexo sexo) {
+    super(sexo);
+  }
 }

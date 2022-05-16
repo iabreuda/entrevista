@@ -1,4 +1,9 @@
 package com.noah.animais.mamiferos;
 
-public class Tigre {
+import com.noah.animais.Sexo;
+
+public class Tigre extends Mamifero {
+  public Tigre(Sexo sexo) {
+    super(sexo);
+  }
 }

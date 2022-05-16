@@ -1,4 +1,9 @@
 package com.noah.animais.aves;
 
-public class Galinha {
+import com.noah.animais.Sexo;
+
+public class Galinha extends Ave {
+  public Galinha(Sexo sexo) {
+    super(sexo);
+  }
 }
